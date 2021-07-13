@@ -1,0 +1,77 @@
+body {
+  margin: 10px 0;
+  padding: 0;
+  text-align: center;
+  font: 0.8em "Fira Sans", sans-serif;
+  background-color: #dea;
+}
+
+div {
+  width: 770px;
+  margin: 0 auto;
+  text-align: left;
+  background-color: #fff;
+  border: 2px solid #9b3;
+}
+
+#header {
+  height: 258px;
+  background: url("apple.jpg") no-repeat left top;
+  margin: 0;
+  text-align: center;
+}
+#header a {
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: relative;
+  top: 112px;
+}
+
+#conteneur {
+  width : 900px;
+}
+.contenu {
+  padding: 0 30px 0 100px;
+}
+.contenu h2 {
+  color: #9b3;
+  border-bottom: 1px solid #9b3;
+  padding-left: 25px;
+  line-height: 25px;
+  background: url("little_apple.gif") no-repeat left top;
+}
+.contenu p {
+  text-align: justify;
+  text-indent: 20px;
+  line-height: 1.7em;
+}
+
+#footer {
+  float: right;
+}
+
+#menu {
+  list-style-type: none;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  background-color: #b0ca5d;
+}
+
+#menu li {
+  float: left;
+  margin: 12px 20px 7px 20px;
+}
+
+#menu li a {
+  width: 100px;
+  display: block;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  border-right: 2px solid #fff;
+}
